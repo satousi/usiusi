@@ -1,3 +1,19 @@
-:%y  次のコマンドを入力してEnterキーを押すと、全てのテキストをコピーできます
-vim ~/.vimrc 設定ファイル
+//全部コピー
+:%y 
 
+//設定ファイルを開く
+vim ~/.vimrc 
+
+//全選択して削除する方法
+:%d
+
+//部分ヤンク
+vを推して移行してy
+
+//バージョンを調べる
+vim --version
+
+//TAB space 2
+set expandtab
+set tabstop=2
+set shiftwidth=2

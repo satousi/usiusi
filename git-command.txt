@@ -1,0 +1,26 @@
+rm -rf {レポジトリ名}
+
+git clone https://github.com/satousi/pullpull.git
+
+// 直前のコミットを取り消す内容をコミット
+git revert HEAD
+
+//ブランチ設定とcheckout
+git checkout -b update-readme 
+
+//変更があったすべてのファイルがaddされる
+git add -A
+
+//コミット後のpush
+git push origin ブランチ名
+
+//変更点を確認して「main」にrebaseして取り込む
+git pull --rebase origin main
+
+//マージ済みブランチの一覧
+git branch --merged
+
+//マージ済みブランチの削除
+git branch -d
+git branch -D 020
+6
