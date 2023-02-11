@@ -1,14 +1,6 @@
-ゼロからわかる Ruby 超入門p120
-size
-sortは大文字から
-join
-join("と")
-split
-split("と")
-map   .map do ||
-全角のスペースでエラー
-p142
-p144から
-動画
-chapter4 , 4-1〜4-2
+ゼロからわかる Ruby 超入門p144から
+動画chapter4 , 4-1〜4-2から
+感覚的に柔らかい感じ？がする
+{:coffee=>300, :caffe_latte=>400}
+ハッシュ（辞書）　シンボル:
 
