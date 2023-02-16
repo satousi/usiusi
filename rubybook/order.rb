@@ -1,3 +1,0 @@
-order = "カフェラテ"
-puts order
-
