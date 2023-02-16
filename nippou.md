@@ -1,3 +1,4 @@
-ゼロからわかるRuby超入門chapter9
-classでメソッドが実行されていく順番が慣れない
+ゼロからわかるRuby超入門chapter10
+classでメソッドが実行されていく順dd番が慣れない
+もうすでにchapter3とか忘れてる
 
