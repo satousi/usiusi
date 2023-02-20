@@ -1,0 +1,40 @@
+#!/usr/bin/env ruby
+＞シバン
+puts 'hello'
+
+＞hello.rbファイルを作成
+
+
+ls -lで権限確認
+-rw-r--r-- 
+
+＞追加
+chmod u+x hello.rb
+
+$ ./hello.rb
+hello
+
+＞相対パスで実行可能
+
+パスなしで実行するために
+
+echo $PATH
+/Users/tt/.nodebrew/current/bin:/Users/tt/.rbenv/shims:/Users/tt/.rbenv/bin:/Users/tt/.pyenv/shims:/Users/tt/.pyenv/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/tt/bin
+
+
+/Users/tt/bin
+
+
+このディレクトリに先ほどのhello.rbコマンドを移動させる
+mv hello.rb ~/bin/
+
+
+
+~/.zshrc
+/Users/tt/.zshrc
+
+ここにexport PATH=$PATH:~/binと書くことで完成
+
+
+
+

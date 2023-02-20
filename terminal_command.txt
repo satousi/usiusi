@@ -1,0 +1,12 @@
+
+#ファイルコピー移動
+
+cp test.html tmp/  
+#test.htmlを相対パスでtmp/というディレクトリの中にコピーする
+/Users/tt/usiusi/rubybook/calendar2.rb /Users/tt/bin/
+cp /Users/tt/bin/calendar2.rb  /Users/tt/ruby_fizz/ruby-practices/02.calendar/
+
+#ファイル名書き換え
+mv test.html test2.html  
+#test.htmlというファイルをtest2.htmlに名前変更する
+
