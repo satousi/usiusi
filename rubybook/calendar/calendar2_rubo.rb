@@ -1,5 +1,8 @@
+#!/usr/bin/env ruby
+
 require 'date'
 require 'optparse'
+require 'Time'
 
 # 今日の日付
 date = Date.today
@@ -39,6 +42,6 @@ end
   print(carendar.day.to_s.rjust(4))
   # 曜日 wday 6で改行
   if carendar.wday == 6
-    print("\n")
+  print("\n")
   end
 end
