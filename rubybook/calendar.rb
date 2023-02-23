@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 require "date"
 
 #今日の日付
