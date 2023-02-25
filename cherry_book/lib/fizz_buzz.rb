@@ -1,4 +1,3 @@
-puts 'hello'
 
 def fizz(x)
   if x % 15 == 0
@@ -12,7 +11,8 @@ def fizz(x)
   end
 end
 
-puts '数字を入力してください'
-print '>'
-x = gets.to_i
-p fizz(x)
+
+ puts '数字を入力してください'
+ print '>'
+ x = gets.to_i
+ p fizz(x)
