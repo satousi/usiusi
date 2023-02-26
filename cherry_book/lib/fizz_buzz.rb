@@ -1,18 +1,16 @@
-
-def fizz(x)
-  if x % 15 == 0
+def fizz(nummber)
+  if (nummber % 15).zero?
     'Fizz Buzz'
-  elsif x % 3 == 0
+  elsif (nummber % 3).zero?
     'Fizz'
-  elsif x % 5 == 0
+  elsif (nummber % 5).zero?
     'Buzz'
   else
-    x.to_s
+    nummber.to_s
   end
 end
 
-
- puts '数字を入力してください'
- print '>'
- x = gets.to_i
- p fizz(x)
+puts '数字を入力してください'
+print '>'
+nummber = gets.to_i
+puts fizz(nummber)
