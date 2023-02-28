@@ -1,5 +1,5 @@
-numbers = []
-
-(1..10).step(2){|n| numbers << n}
-
-p numbers
+File.open('./sample.txt','w')do |file|
+  file.puts('abcdef')
+  file.puts('ghijkl')
+  file.puts('mnopqr')
+end
