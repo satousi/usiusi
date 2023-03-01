@@ -1,5 +1,8 @@
-numbers = []
+a =  {}
+a[0] = 'koko'
 
-(1..10).step(2){|n| numbers << n}
 
-p numbers
+a[0] = 'toto'
+
+p a[5]
+
