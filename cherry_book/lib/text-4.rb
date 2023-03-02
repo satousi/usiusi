@@ -1,5 +1,5 @@
-File.open('./sample.txt','w')do |file|
-  file.puts('abcdef')
-  file.puts('ghijkl')
-  file.puts('mnopqr')
+currencies = {'japan' => 'yen', 'us' => 'dollar', 'india' => 'rupee'}
+
+currencies.each do |key, value|
+  puts "#{key}:#{value}"
 end
