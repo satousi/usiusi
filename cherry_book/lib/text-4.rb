@@ -1,16 +1,6 @@
-<<<<<<< HEAD
-a =  {}
-a[0] = 'koko'
 
+currencies = {'japan' => 'yen', 'us' => 'dollar', 'india' => 'rupee'}
 
-a[0] = 'toto'
+currencies.each do |key, value|
+  puts "#{key}:#{value}"
 
-p a[5]
-
-=======
-File.open('./sample.txt','w')do |file|
-  file.puts('abcdef')
-  file.puts('ghijkl')
-  file.puts('mnopqr')
-end
->>>>>>> main
