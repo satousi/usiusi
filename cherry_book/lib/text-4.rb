@@ -6,4 +6,5 @@ TEXT
 
 puts text.scan /\d\d-\d\d\d\d-\d\d\d\d/
 
+kokokara
 
