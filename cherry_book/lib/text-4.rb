@@ -1,10 +1,2 @@
-text = <<TEXT
-名前：伊藤淳一
-電話：03-1234-5678
-住所：兵庫県西脇市板波町1-2-3
-TEXT
-
-puts text.scan /\d\d-\d\d\d\d-\d\d\d\d/
-
-kokokara
-
+text = '私の誕生日は1977年12月17日です。'
+p text[/\d+年\d+月\d+日/]
