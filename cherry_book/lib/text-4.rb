@@ -1,31 +1,26 @@
-#require 'debug'
-
 class Product
-  attr_reader :name, :price
-
-  def initialize(name,price)
-    @name = name
-    @price = price
-  end
   def to_s
-    "name:#{name}, price:#{price}"
+    "name:#{name}"
   end
+
+  private
+
+  def name
+    'A great movie'
+  end
+
 end
 
 class DVD < Product
-  attr_reader :running_time
+  private
 
-  def initialize(name, price, running_time)
-    super(name, price)
-    @running_time= running_time
-  end
-  def to_s
-    "name:#{name}, price:#{price},running_timeitime:#{running_time}"
+  def name
+    'An awesomw film'
   end
 end
 
-product = Product.new('A great movie', '1000')
+product = Product.new
 p product.to_s
-dvd = DVD.new('A awesome film', 3000, 120)
-#binding.break
-puts dvd.to_s
+
+dvd = DVD.new
+p dvd.to_s
