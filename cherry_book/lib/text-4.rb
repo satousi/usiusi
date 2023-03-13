@@ -1,26 +1,17 @@
-class Product
-  def to_s
-    "name:#{name}"
+class User
+  def initialize(name)
+    @name = name
   end
-
-  private
-
-  def name
-    'A great movie'
+  def get_name
+    @name
   end
-
-end
-
-class DVD < Product
-  private
-
-  def name
-    'An awesomw film'
+  def set_name=(value)
+    #@name = value
   end
 end
 
-product = Product.new
-p product.to_s
+user = User.new('taro')
+p user.get_name
+p user.set_name=('kate')
+p user.get_name
 
-dvd = DVD.new
-p dvd.to_s
